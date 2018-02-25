@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-25 13:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\admin.py:70
+msgid "Task (registered)"
+msgstr "任务(已注册)"
+
+#: .\admin.py:74
+msgid "Task (custom)"
+msgstr "任务(自定义)"
+
+#: .\admin.py:91
+msgid "Need name of task"
+msgstr "需要任务的名称"
+
+#: .\admin.py:102
+#, python-format
+msgid "Unable to parse JSON: %s"
+msgstr "无法解析JSON:%s"
+
+#: .\admin.py:126
+msgid "Schedule"
+msgstr "调度器"
+
+#: .\admin.py:130 .\models.py:243
+msgid "Arguments"
+msgstr "参数"
+
+#: .\admin.py:134
+msgid "Execution Options"
+msgstr "执行选项"
+
+#: .\admin.py:156
+#, python-brace-format
+msgid "{0} task{1} {2} successfully enabled"
+msgstr "{0} 任务{1} {2} 开启成功"
+
+#: .\admin.py:159 .\admin.py:172 .\admin.py:191
+msgid "was,were"
+msgstr ""
+
+#: .\admin.py:162
+msgid "Enable selected tasks"
+msgstr "开启所选任务"
+
+#: .\admin.py:169
+#, python-brace-format
+msgid "{0} task{1} {2} successfully disabled"
+msgstr "{0}任务{1} {2} 禁用成功"
+
+#: .\admin.py:175
+msgid "Disable selected tasks"
+msgstr "禁用所选任务"
+
+#: .\admin.py:188
+#, python-brace-format
+msgid "{0} task{1} {2} successfully run"
+msgstr "{0} 任务{1} {2} 运行成功"
+
+#: .\admin.py:194
+msgid "Run selected tasks"
+msgstr "运行选中的任务"
+
+#: .\apps.py:15
+msgid "Periodic Tasks"
+msgstr "周期任务"
+
+#: .\models.py:24
+msgid "Days"
+msgstr "日"
+
+#: .\models.py:25
+msgid "Hours"
+msgstr "时"
+
+#: .\models.py:26
+msgid "Minutes"
+msgstr "分"
+
+#: .\models.py:27
+msgid "Seconds"
+msgstr "秒"
+
+#: .\models.py:28
+msgid "Microseconds"
+msgstr "微秒"
+
+#: .\models.py:44
+msgid "event"
+msgstr "事件"
+
+#: .\models.py:47
+msgid "latitude"
+msgstr "纬度"
+
+#: .\models.py:50
+msgid "longitude"
+msgstr "经度"
+
+#: .\models.py:56
+msgid "solar event"
+msgstr "太阳事件"
+
+#: .\models.py:57
+msgid "solar events"
+msgstr "太阳事件"
+
+#: .\models.py:101
+msgid "every"
+msgstr "间隔时间"
+
+#: .\models.py:103
+msgid "period"
+msgstr "周期"
+
+#: .\models.py:109 .\models.py:232
+msgid "interval"
+msgstr "间隔"
+
+#: .\models.py:110
+msgid "intervals"
+msgstr "间隔"
+
+#: .\models.py:130
+#, python-brace-format
+msgid "every {0.period_singular}"
+msgstr ""
+
+#: .\models.py:131
+#, python-brace-format
+msgid "every {0.every} {0.period}"
+msgstr ""
+
+#: .\models.py:142
+msgid "minute"
+msgstr "分"
+
+#: .\models.py:143
+msgid "hour"
+msgstr "时"
+
+#: .\models.py:145
+msgid "day of week"
+msgstr "星期"
+
+#: .\models.py:148
+msgid "day of month"
+msgstr "日期"
+
+#: .\models.py:151
+msgid "month of year"
+msgstr "月份"
+
+#: .\models.py:157 .\models.py:236
+msgid "crontab"
+msgstr "定时器"
+
+#: .\models.py:158
+msgid "crontabs"
+msgstr "定时器"
+
+#: .\models.py:226
+msgid "name"
+msgstr "名称"
+
+#: .\models.py:227
+msgid "Useful description"
+msgstr "有用的描述"
+
+#: .\models.py:229
+msgid "task name"
+msgstr "任务名称"
+
+#: .\models.py:236
+msgid "Use one of interval/crontab"
+msgstr "使用一个间隔/ 定时器"
+
+#: .\models.py:240
+msgid "solar"
+msgstr "太阳时间"
+
+#: .\models.py:240
+msgid "Use a solar schedule"
+msgstr "使用一个太阳的时间表"
+
+#: .\models.py:244
+msgid "JSON encoded positional arguments"
+msgstr "JSON格式的位置参数"
+
+#: .\models.py:247
+msgid "Keyword arguments"
+msgstr "参数关键字"
+
+#: .\models.py:248
+msgid "JSON encoded keyword arguments"
+msgstr "JSON格式的关键字参数"
+
+#: .\models.py:251
+msgid "queue"
+msgstr "队列"
+
+#: .\models.py:252
+msgid "Queue defined in CELERY_TASK_QUEUES"
+msgstr "在CELERY_TASK_QUEUES中定义的队列"
+
+#: .\models.py:255
+msgid "exchange"
+msgstr "交换"
+
+#: .\models.py:258
+msgid "routing key"
+msgstr "路由关键字"
+
+#: .\models.py:261
+msgid "expires"
+msgstr "截止日期"
+
+#: .\models.py:264
+msgid "enabled"
+msgstr "启用"
+
+#: .\models.py:274
+msgid "description"
+msgstr "描述"
+
+#: .\models.py:282
+msgid "periodic task"
+msgstr "周期任务"
+
+#: .\models.py:283
+msgid "periodic tasks"
+msgstr "周期任务"
+
+#: .\templates\admin\djcelery\change_list.html:6
+msgid "Home"
+msgstr ""
